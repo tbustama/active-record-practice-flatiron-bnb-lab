@@ -7,7 +7,7 @@ class CreateListings < ActiveRecord::Migration[5.0]
       t.string :listing_type
       t.float :price
       t.integer :host_id
-      t.integer :reighborhood_id
+      t.integer :neighborhood_id
     end
   end
 end
